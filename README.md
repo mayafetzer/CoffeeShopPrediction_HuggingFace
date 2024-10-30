@@ -8,6 +8,17 @@ Course: CHEG 472
 ## Purpose
 This repository holds the code to run an app that will predict whether a customer will order a latte, cappuccino, or espresso based on different independant variables like order time, caffiene tolerance, etc. 
 
+## Files In This Repository
+app.py - Python code to create the Hugging Face interface
+
+best_model.pkl - a pickle file that contains the best ML model for the dataset
+
+coffee_recommendation_dataset.xlsx - the training dataset
+
+label_encoder.pkl - a pickle file that encodes the data
+
+requirement.txt - requirements file
+
 ## Prerequisites
 
 ### Python
